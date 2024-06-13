@@ -1,8 +1,9 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 creator,Creator,,,DCTERMS.creator,creator
-date,Date Created,,,DCTERMS.date,dateCreated
-creator_first_name,Creator's First Name,
+date_published,Date Created,,,DCTERMS.date,dateCreated
+publisher,Publishers,,,DCTERMS.publisher,publisher
+journal_title,Academic Journals,,,DCTERMS.
 description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
