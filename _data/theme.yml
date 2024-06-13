@@ -51,8 +51,8 @@ map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 # TIMELINE PAGE
 #
 # set either year-navigation or year-nav-increment to generate a year nav dropdown
-year-navigation: #"1900;1905;1910;1915;1920" # manually set years to appear in dropdown nav
-year-nav-increment: 5 # set increments to auto gen nav years
+year-navigation: #"1900-01-31;1900-02;1900-03;1900-04;1900-05;1900-06;1900-07;1900-08;1900-09;1900-10;1900-11;1900-12" # manually set years to appear in dropdown nav
+year-nav-increment: 1 # set increments to auto gen nav years
 
 ##########
 # DATA 
@@ -61,7 +61,7 @@ year-nav-increment: 5 # set increments to auto gen nav years
 # comma delimited list, reference url is automatic
 metadata-export-fields: "title,creator,date,description,subject,subtopic,publisher,journal_title,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,creator,format"
+metadata-facets-fields: "subject,subtopic,creator,format"
 
 ##########
 # Compound Objects 
