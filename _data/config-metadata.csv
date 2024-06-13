@@ -4,7 +4,7 @@ creator,Creator,,,DCTERMS.creator,creator
 date_published,Date Created,,,DCTERMS.date,dateCreated
 publisher,Publishers,,,DCTERMS.publisher,publisher
 journal_title,Academic Journals,,,DCTERMS.
-description,Description,,,DCTERMS.description,description
+subtopic,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
