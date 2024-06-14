@@ -1,13 +1,12 @@
 ---
 title: Subjects
-layout: cloud
+layout: page
 permalink: /subjects.html
-# Default subject page is configured in "_data/theme.yml"
-# leave cloud-fields as "site.data.theme.subjects-fields"
-cloud-fields: site.data.theme.subjects-fields
 ---
+{% assign topics = site.data.rlg1000-subject-metadata | where_exp: 'i','i.parentid == nil' %}
+## Topics
 
-## Browse Subjects
-
-Use this word cloud visualization to browse terms and subjects.
-Word size is determined by frequency and all words link to a corresponding collection search.
+{% for s in topics %}
+- [{{ s.title }}]({{ '/items/' | relative_url }}{{ s.objectid }}.html) {% assign children = site.data.rlg1000-subject-metadata | where_exp: 'i','i.parentid == s.objectid' %}{% for c in children %}
+    - {{ c.title }}{% endfor %}
+{% endfor %}

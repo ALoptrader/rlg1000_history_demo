@@ -1,0 +1,14 @@
+---
+# basic layout intended for metadata only type item, designed for linking to external source
+layout: item/item-page-base
+---
+{% assign syllabus = site.data.rlg1000-reading-metadata | where_exp: 'r', 'r.creatorid contains page.objectid' %}
+{% if syllabus %}
+<div class="mb-4">
+    <p><a href="{{ '/browse.html' | relative_url }}#{{ page.objectid }}" class="btn btn-lg btn-outline-primary">Browse Related Readings</a></p>
+    <h3 class="h4">Related Syllabus:</h3>
+    {% for s in syllabus %}
+    <a href="{{ '/items/' | relative_url }}{% if s.parentid %}{{ s.parentid }}.html#{{ s.objectid }}{% else %}{{ s.objectid }}.html{% endif %}" class="btn btn-sm btn-outline-secondary m-1">{{ s.title }}</a>{% endfor %}
+
+</div>
+{% endif %}

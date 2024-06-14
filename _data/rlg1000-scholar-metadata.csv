@@ -1,4 +1,4 @@
-objectid,creator,gender,nationality,employer,location,latitude,longitude,subject,publication,hire_date,retire_date,birth,death,external link
+objectid,title,gender,nationality,employer,location,latitude,longitude,subject,publication,hire_date,retire_date,birth,death,external_link
 scholar1,Pierre Daniel Chantepie de la Saussaye,m,Dutch,Leiden University,,,,the phenomenology of religion;psychology of religion;comparative religion,,,,,,
 scholar2,Eric.John Sharpe,m,British,University of Sydney,,,,the phenomenology of religion;the history of religion;the history of religion,,,,,,
 scholar3,William Brede Kristensen,m,Dutch,Leiden University,,,,the phenomenology of religion,,,,,,
@@ -68,4 +68,3 @@ scholar66,Anthony J Kenny,m,,,,,,,,,,,,
 scholar67,David Hume,m,Scottish,,,,,philosophy of religion;philosophical empiricism/skepticism,A Treatise of Human Nature (1739–1740);the Enquiries concerning Human Understanding (1748);concerning the Principles of Morals,,,1711,1776,https://plato.stanford.edu/entries/hume/
 scholar68,A.J. Ayer,m,,,,,,,,,,,,
 scholar69,Albert Yang,m,Canadian,University of Toronto,,,,,,,,,,
-scholar70,,m,,,,,,,,,,,,

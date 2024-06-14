@@ -1,6 +1,13 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 creator,Creator,,,DCTERMS.creator,creator
+nationality,Nationality,
+employer,Employer,
+hire_date,Hired,
+retire_date,Retired,
+birth,Birth,
+death,Death,
+external_link,Site,,true,
 date_published,Date Created,,,DCTERMS.date,dateCreated
 publisher,Publishers,,,DCTERMS.publisher,publisher
 journal_title,Academic Journals,,,DCTERMS.
